@@ -42,13 +42,13 @@
             tiff:ImageWidth="{Long}765"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}3"
+            dam:score="{Long}4"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}3"
-                lastUsed="{Date}2021-09-27T23:56:11.628+05:30"/>
+                count="{Long}4"
+                lastUsed="{Date}2021-10-01T20:10:59.137+05:30"/>
         </usages>
     </jcr:content>
 </jcr:root>

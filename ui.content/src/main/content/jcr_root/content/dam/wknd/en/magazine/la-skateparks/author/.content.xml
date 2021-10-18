@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8921a7da-7940-49cf-b9fb-a0cafe2a97d2">
+    <jcr:content
+        cq:name="author"
+        cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-10-18T21:19:21.892+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Author"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-10-18T21:19:21.892+05:30">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/author-information"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                books="[AEM,Design,SQL]"
+                books_x0040_LastModified="{Date}2021-10-18T21:19:21.575+05:30"
+                name="Poornima Loganathan"
+                name_x0040_LastModified="{Date}2021-10-18T21:19:21.574+05:30"
+                occupation="&lt;p>Analyst Developer&lt;/p>&#xa;"
+                occupation_x0040_ContentType="text/html"
+                occupation_x0040_LastModified="{Date}2021-10-18T21:19:21.575+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
