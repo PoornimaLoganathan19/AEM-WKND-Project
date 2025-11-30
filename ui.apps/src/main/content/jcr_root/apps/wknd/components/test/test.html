@@ -1,0 +1,8 @@
+
+<h1>Test Component </h1>
+<div data-sly-use.book="com.adobe.aem.guides.wknd.core.models.TestModel">
+    <div data-sly-list.item="${book.bookDetails}">
+        <p>Book Name: ${item.bookname}</p>
+        <p>Written by: ${item.writtenby}</p>
+    </div>
+</div>
